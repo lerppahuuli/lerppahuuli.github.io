@@ -1,0 +1,177 @@
+<!doctype html><html lang="fi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Leveä ammattilaisen poimuri tasaiselle kankaalle."><title>Ronski Poimu | Poimu</title><link rel="stylesheet" href="style.css"><script defer src="main.js"></script></head><body><a class="skip" href="#sisalto">Siirry sisältöön</a>
+ <header>
+  <div class="shell top">
+   <a class="logo" href="index.html" aria-label="Poimu – etusivu"><img src="assets/logo.webp" alt="Poimu" width="140" height="48"></a>
+   <nav class="desktop" aria-label="Päävalikko"><a href="index.html">Poimu</a>
+ <a href="index.html#mallisto">Tuotteet</a>
+ <a href="tarina.html">Tarina</a>
+ <a href="https://poimu.eu/blogi/">Blogi</a>
+ <div class="nav-group">
+  <a href="https://poimu.eu/marjastus/">Marjastus</a>
+  <details class="nav-dropdown">
+   <summary aria-label="Marjastus – alavalikko"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m7 10 5 5 5-5"/></svg></summary>
+   <div><a href="https://poimu.eu/marjastus/marjastusvinkit/">Marjastusvinkit</a><a href="https://poimu.eu/marjastus/marjat/">Suomalaiset metsämarjat</a><a href="https://poimu.eu/marjastus/marjojen-sailytys/">Marjojen säilytys</a><a href="opas.html">Marjastus-opas</a></div>
+  </details>
+ </div>
+ <div class="nav-group">
+  <a href="https://poimu.eu/poimu-marjanpoimurit/">Marjanpoimurit</a>
+  <details class="nav-dropdown">
+   <summary aria-label="Marjanpoimurit – alavalikko"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m7 10 5 5 5-5"/></svg></summary>
+   <div><a href="https://poimu.eu/poimu-marjanpoimurit/osta-marjanpoimuri/">Marjanpoimurin ostaminen</a><a href="https://poimu.eu/poimu-marjanpoimurit/paras-marjanpoimuri-nain-valitset-oikeasti-tehokkaan-ja-toimivan-vaihtoehdon/">Paras marjanpoimuri</a></div>
+  </details>
+ </div></nav>
+   <div class="tools">
+    <a class="login" href="https://poimu.eu/oma-tili/">Kirjaudu</a>
+    <details class="language">
+     <summary aria-label="Valitse kieli"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg> FI <svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m7 10 5 5 5-5"/></svg></summary>
+     <div><a lang="fi" href="index.html">Suomi</a><a lang="en" href="https://poimu.eu/en/">English</a><a lang="sv" href="https://poimu.eu/sv/">Svenska</a></div>
+    </details>
+    <a class="bag" href="https://poimu.eu/ostoskori/" aria-label="Ostoskori"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l1 13H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span>Ostoskori</span></a>
+    <button id="menubtn" aria-label="Avaa valikko" aria-expanded="false" aria-controls="mobilenav"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+   </div>
+  </div>
+  <nav id="mobilenav" aria-label="Mobiilivalikko" hidden><a href="index.html">Poimu</a>
+ <a href="index.html#mallisto">Tuotteet</a>
+ <a href="tarina.html">Tarina</a>
+ <a href="https://poimu.eu/blogi/">Blogi</a>
+ <div class="nav-group">
+  <a href="https://poimu.eu/marjastus/">Marjastus</a>
+  <details class="nav-dropdown">
+   <summary aria-label="Marjastus – alavalikko"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m7 10 5 5 5-5"/></svg></summary>
+   <div><a href="https://poimu.eu/marjastus/marjastusvinkit/">Marjastusvinkit</a><a href="https://poimu.eu/marjastus/marjat/">Suomalaiset metsämarjat</a><a href="https://poimu.eu/marjastus/marjojen-sailytys/">Marjojen säilytys</a><a href="opas.html">Marjastus-opas</a></div>
+  </details>
+ </div>
+ <div class="nav-group">
+  <a href="https://poimu.eu/poimu-marjanpoimurit/">Marjanpoimurit</a>
+  <details class="nav-dropdown">
+   <summary aria-label="Marjanpoimurit – alavalikko"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m7 10 5 5 5-5"/></svg></summary>
+   <div><a href="https://poimu.eu/poimu-marjanpoimurit/osta-marjanpoimuri/">Marjanpoimurin ostaminen</a><a href="https://poimu.eu/poimu-marjanpoimurit/paras-marjanpoimuri-nain-valitset-oikeasti-tehokkaan-ja-toimivan-vaihtoehdon/">Paras marjanpoimuri</a></div>
+  </details>
+ </div><a class="login" href="https://poimu.eu/oma-tili/">Kirjaudu</a></nav>
+ </header><main id="sisalto"><section class="shell detailgrid">
+  <div class="detail-media"><img src="assets/ronski.webp" alt="Ronski Poimu" class="bigproduct" loading="lazy"></div>
+  <div class="detail-summary">
+   <nav class="crumb" aria-label="Murupolku"><a href="index.html">Etusivu</a> <span>/</span> <a href="index.html#mallisto">Mallisto</a> <span>/</span> <span aria-current="page">Ronski Poimu</span></nav>
+   <h1>Ronski Poimu</h1>
+   <p class="lead">Leveä ammattilaisen poimuri tasaiselle kankaalle.</p>
+   <p>Malleista suurin on kotonaan tasaisessa kangasmaastossa. Kuuden litran koppa antaa kokeneelle poimijalle aikaa keskittyä marjapaikkaan tyhjennysten välillä.</p>
+   <dl class="specs"><div><dt>Tilavuus</dt><dd>6 l</dd></div><div><dt>Paino tyhjänä</dt><dd>n. 900 g</dd></div><div><dt>Mitat ilman kahvaa (p × l × k)</dt><dd>32 × 25 × 11,5 cm</dd></div></dl>
+   <div class="detailprice">105,00 € <small>sis. alv</small></div>
+   <a class="btn" href="https://poimu.eu/marjanpoimuri-ronski-poimu/" aria-label="Lisää ostoskoriin – siirry Poimun verkkokauppaan">Lisää ostoskoriin</a>
+   <ul class="detail-trust" aria-label="Poimun edut"><li><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c0-5 4-8 8-8h5c3 0 5 3 5 7s-2 8-6 8h-5c-4 0-7-3-7-7Z"/><ellipse cx="10" cy="12" rx="3.6" ry="4.2"/><path d="M16 5l-3 2m6 8-3 1"/></svg><p><strong>Alumiinia ja puuta</strong><span class="detail-trust-separator" aria-hidden="true">·</span><span>Kestävä, kevyt rakenne</span></p></li><li><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 8 3v6c0 5-4 8-8 11-4-3-8-6-8-11V5z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><p><strong>5 vuoden takuu</strong><span class="detail-trust-separator" aria-hidden="true">·</span><span>Rajoitettu valmistajan takuu</span></p></li><li><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v12H7m7-9h4l4 5v4h-3m-5 0h1M2 9v8h1"/><circle cx="5" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg><p><strong>Toimitus alk. 9,90 €</strong><span class="detail-trust-separator" aria-hidden="true">·</span><span>Manner-Suomeen</span></p></li><li><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 10c0 5-7 12-7 12s-7-7-7-12a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></svg><p><strong>Maksuton nouto</strong><span class="detail-trust-separator" aria-hidden="true">·</span><span>Myymälästämme Kuhmosta</span></p></li></ul>
+  </div>
+  <div class="detail-content"><section class="detail-description" aria-labelledby="description-heading">
+  <div class="detail-description-copy"><h2 id="description-heading">Suurelle saaliille ja vaativaan käyttöön</h2><p>Ronski Poimu on malliston suurin koppapoimuri, joka on suunniteltu kokeneelle ja hyväkuntoiselle marjastajalle. Kuuden litran tilavuus antaa mahdollisuuden jatkaa poimintaa pitkään ennen kopan tyhjentämistä. Leveä, 25 senttimetrin koppa toimii parhaimmillaan tasaisessa kangasmaastossa, jossa marjoja kasvaa runsaasti. Tyhjänä Ronski painaa noin 900 grammaa.</p>
+  <h3>Suunniteltu runsaaseen marjastukseen</h3><ul><li>Kuuden litran koppa vähentää keskeytyksiä hyvillä marjapaikoilla.</li><li>Leveä piikkirivi soveltuu erityisesti tasaiselle kankaalle.</li><li>Tukeva rakenne on tarkoitettu pitkäaikaiseen ja aktiiviseen käyttöön.</li></ul><h3>Materiaalit ja käyttömukavuus</h3>
+   <p>Poimurin koppa valmistetaan elintarvikekäyttöön hyväksytystä alumiiniseoksesta (EN AW-5754). Pitkät ja vahvat pianolankapiikit irrottavat marjoja varvustosta ja auttavat vähentämään koppaan kulkeutuvaa roskaa. Ruostumaton teräs kannattelee öljyttyä jalopuukahvaa, joka tuntuu kädessä lämpimältä ja tukevalta.</p>
+   <p>Poimu on tehty pitkäaikaiseen käyttöön. Piikkien ja kahvan osia on mahdollista vaihtaa, ja tarvittaessa varaosia voi tiedustella valmistajalta. Puhdista poimuri käsin, jotta puukahva säilyy hyvässä kunnossa.</p><p>Voit tehdä poimurista omannäköisesi laserkaiverruksella. <a class="textlink" href="kaiverrus.html">Tutustu kaiverrukseen</a>.</p></div>
+ </section><section class="upsell-panel" aria-labelledby="upsell-heading">
+  <h2 id="upsell-heading">Lisätarvikkeet</h2><p class="upsell-intro">Korjattavuus ja käyttömukavuus ovat osa Poimun DNA:ta.</p>
+  <div class="upsell-grid"><article class="upsell-card">
+  <div class="upsell-thumb"><img src="assets/grippiteippi.webp" alt="" class="" loading="lazy"></div>
+  <div class="upsell-card-copy"><h3><a href="grippiteippi.html">Grippiteippi kahvaan</a></h3><p>Pitävä ote haravapoimurin varresta <span aria-hidden="true">·</span> <span class="upsell-price">3,90 €</span></p></div>
+  <button class="btn upsell-add" type="button" aria-pressed="false" aria-label="Valitse Grippiteippi kahvaan" data-accessory="grip" data-name="Grippiteippi kahvaan" data-price="390"><span aria-hidden="true">+</span> Lisää</button>
+ </article><article class="upsell-card">
+  <div class="upsell-thumb upsell-thumb-example" role="img" aria-label="Havainnekuva"><svg viewBox="0 0 96 96" aria-hidden="true" focusable="false" fill="none">
+   <g transform="rotate(-32 48 48)" stroke-linecap="round">
+    <g stroke="#69706d" stroke-width="3.4"><path d="M22 28v46q0 5 6 5"/><path d="M32 28v46q0 5 6 5"/><path d="M42 28v46q0 5 6 5"/><path d="M52 28v46q0 5 6 5"/><path d="M62 28v46q0 5 6 5"/><path d="M72 28v46q0 5 6 5"/></g>
+    <g stroke="#d5d8d6" stroke-width="1"><path d="M21 29v44"/><path d="M31 29v44"/><path d="M41 29v44"/><path d="M51 29v44"/><path d="M61 29v44"/><path d="M71 29v44"/></g>
+   </g></svg></div>
+  <div class="upsell-card-copy"><h3>Varapiikkisarja</h3><p>Vaihdettava pianolanka <span aria-hidden="true">·</span> <span class="upsell-price">14,90 €</span> <span class="upsell-example">(mallihinta)</span></p></div>
+  <button class="btn upsell-add" type="button" aria-pressed="false" aria-label="Valitse Varapiikkisarja" data-accessory="spikes" data-name="Varapiikkisarja" data-price="1490"><span aria-hidden="true">+</span> Lisää</button>
+ </article><article class="upsell-card">
+  <div class="upsell-thumb upsell-thumb-example" role="img" aria-label="Havainnekuva"><svg viewBox="0 0 96 96" aria-hidden="true" focusable="false">
+    <rect x="32" y="13" width="32" height="13" rx="3" fill="#343834"/><path d="M36 26h24v8l8 9v33a7 7 0 0 1-7 7H35a7 7 0 0 1-7-7V43l8-9Z" fill="#9d6b3f"/>
+    <path d="M34 43v32" stroke="#b99167" stroke-width="3" stroke-linecap="round"/><rect x="29" y="48" width="38" height="23" rx="2" fill="#f0f0ec"/>
+    <path d="M48 52c-2 4-6 7-6 11a6 6 0 0 0 12 0c0-4-4-7-6-11Z" fill="#2e7d32"/>
+   </svg></div>
+  <div class="upsell-card-copy"><h3>Puuöljy kahvalle</h3><p>Puukahvan huoltoon <span aria-hidden="true">·</span> <span class="upsell-price">8,90 €</span> <span class="upsell-example">(mallihinta)</span></p></div>
+  <button class="btn upsell-add" type="button" aria-pressed="false" aria-label="Valitse Puuöljy kahvalle" data-accessory="oil" data-name="Puuöljy kahvalle" data-price="890"><span aria-hidden="true">+</span> Lisää</button>
+ </article></div>
+  <p class="upsell-selection" role="status" aria-live="polite"></p>
+ </section></div>
+ </section><div class="shell detail-guides"><section class="purchase-guides" aria-labelledby="purchase-guides-heading">
+  <h2 id="purchase-guides-heading">Tutustu ennen ostamista</h2>
+  <p>Ennen kuin teet ostopäätöksen, nämä oppaat auttavat valitsemaan oikean marjanpoimurin ja saamaan siitä kaiken hyödyn irti:</p>
+  <ul class="purchase-guide-grid"><li><a href="https://poimu.eu/poimu-marjanpoimurit/paras-marjanpoimuri-nain-valitset-oikeasti-tehokkaan-ja-toimivan-vaihtoehdon/"><strong>Paras marjanpoimuri</strong><span>Vertaa malleja ja valitse tarpeisiisi sopiva poimuri.</span><span class="textlink">Lue opas</span></a></li><li><a href="https://poimu.eu/marjastus/marjastusvinkit/"><strong>Marjastusvinkit</strong><span>Vinkkejä sujuvaan ja mukavaan marjaretkeen.</span><span class="textlink">Lue opas</span></a></li><li><a href="https://poimu.eu/marjastus/marjat/"><strong>Marjat ja kasvupaikat</strong><span>Tutustu metsämarjoihin ja niiden kasvupaikkoihin.</span><span class="textlink">Lue opas</span></a></li><li><a href="https://poimu.eu/marjastus/marjastusvinkit/marjastusvinki-kuinka-paljon-marjastamalla-voi-tienata/"><strong>Kuinka paljon marjastamalla voi tienata</strong><span>Lue lisää marjojen keräämisestä ansaintatarkoituksessa.</span><span class="textlink">Lue opas</span></a></li></ul>
+ </section></div><section class="product-faq" aria-labelledby="faq-heading">
+  <div class="faq-questions">
+   <h2 id="faq-heading">Usein kysyttyä</h2>
+   <div class="faq-list"><details class="faq-item"><summary><span>Milloin kannattaa valita Ronski Poimu?</span><span class="faq-toggle" aria-hidden="true"></span></summary><div class="faq-answer"><p>Ronski sopii suurten marjamäärien keräämiseen erityisesti tasaisilla kangasmailla. Kopan tilavuus on 6 litraa ja tyhjäpaino noin 900 grammaa.</p></div></details><details class="faq-item"><summary><span>Mitä marjoja Poimulla voi kerätä?</span><span class="faq-toggle" aria-hidden="true"></span></summary><div class="faq-answer"><p>Poimu soveltuu suomalaisille metsämarjoille, kuten mustikalle ja puolukalle. Sopiva malli riippuu maastosta, marjalajista ja omasta poimintatavasta.</p></div></details><details class="faq-item"><summary><span>Kuinka poimuri puhdistetaan?</span><span class="faq-toggle" aria-hidden="true"></span></summary><div class="faq-answer"><p>Pese poimuri käsin vedellä ja tavallisella astianpesuaineella. Puukahvan takia sitä ei pidä laittaa astianpesukoneeseen.</p></div></details><details class="faq-item"><summary><span>Voiko poimurin korjata?</span><span class="faq-toggle" aria-hidden="true"></span></summary><div class="faq-answer"><p>Piikit ja kahvan osat voidaan vaihtaa. Jos poimuri vaurioituu, Poimun asiakaspalvelusta voi kysyä korjausohjeita ja varaosia.</p></div></details><details class="faq-item"><summary><span>Voiko poimuriin saada oman kaiverruksen?</span><span class="faq-toggle" aria-hidden="true"></span></summary><div class="faq-answer"><p>Kyllä. Lisää kaiverrus tilaukseen ja ilmoita haluamasi teksti tai logo verkkokaupan tilausohjeiden mukaisesti. <a class="textlink" href="kaiverrus.html">Tutustu kaiverrukseen</a>.</p></div></details><details class="faq-item"><summary><span>Kuinka pitkä takuu poimurilla on?</span><span class="faq-toggle" aria-hidden="true"></span></summary><div class="faq-answer"><p>Valmistajan takuu on viisi vuotta koppamallisille Poimuille. <a class="textlink" href="https://poimu.eu/tilaus-ja-toimitusehdot/">Tutustu takuuehtoihin</a>.</p></div></details><details class="faq-item"><summary><span>Voiko tuotteita tilata ulkomaille?</span><span class="faq-toggle" aria-hidden="true"></span></summary><div class="faq-answer"><p>Kyllä. Poimun asiakaspalvelusta voi tiedustella toimitustapaa ja toimituskuluja ulkomaille.</p></div></details></div>
+  </div>
+  <div class="faq-contact">
+   <h3 id="faq-contact-heading">Etkö löytänyt vastausta?<br>Kysy kysymys</h3>
+   <form class="faq-form" action="mailto:info@poimu.eu" method="post" enctype="text/plain" aria-labelledby="faq-contact-heading" data-product="Ronski Poimu">
+    <label class="sr" for="faq-question">Kysymyksesi</label>
+    <textarea id="faq-question" name="question" rows="5" maxlength="1500" placeholder="Kirjoita kysymyksesi tähän…" required></textarea>
+    <button class="faq-submit" type="submit">Kysy kysymys</button>
+    <p class="faq-form-note">Painike avaa sähköpostiluonnoksen.</p>
+    <p class="faq-form-status" role="status"></p>
+    <noscript><p>Voit lähettää kysymyksesi osoitteeseen <a href="mailto:info@poimu.eu">info@poimu.eu</a>.</p></noscript>
+   </form>
+  </div>
+ </section><section class="shell block"><p class="kicker"><i></i>Poimu-mallisto</p><h2>Muut poimurit</h2><div class="products related"><article class="product" data-group="koppa">
+  <a class="productphoto" href="pieni.html" aria-label="Tutustu tuotteeseen Pieni Poimu"><img src="assets/pieni.webp" alt="Pieni Poimu" class="" loading="lazy"><span class="spec">2,5 l</span></a>
+  <div class="producttitle">
+   <div class="product-name">
+    <h3><a href="pieni.html">Pieni Poimu</a></h3>
+    <a class="product-rating" href="https://poimu.eu/marjanpoimuri-pieni-poimu/#reviews" aria-label="Pieni Poimu: 4,78 / 5, 32 arvostelua">
+     <span aria-hidden="true">★</span> 4,78 (32)
+    </a>
+   </div>
+   <div class="price">83,50 € <small>sis. alv</small></div>
+  </div>
+  <p class="product-description">Kevyt poimuri pienelle kädelle ja lyhyelle marjaretkelle.</p>
+<dl class="card-specs"><div><dt>Tilavuus</dt><dd>2,5 l</dd></div><div><dt>Paino</dt><dd>530 g</dd></div><div><dt>Kopan leveys</dt><dd>16 cm</dd></div></dl>
+  <a class="btn product-button" href="pieni.html">Tutustu tuotteeseen<span class="sr"> Pieni Poimu</span></a>
+ </article><article class="product" data-group="koppa">
+  <a class="productphoto" href="iso.html" aria-label="Tutustu tuotteeseen Iso Poimu"><img src="assets/iso.webp" alt="Iso Poimu" class="" loading="lazy"><span class="spec">4,5 l</span></a>
+  <div class="producttitle">
+   <div class="product-name">
+    <h3><a href="iso.html">Iso Poimu</a></h3>
+    <a class="product-rating" href="https://poimu.eu/marjanpoimuri-iso-poimu/#reviews" aria-label="Iso Poimu: 4,53 / 5, 38 arvostelua">
+     <span aria-hidden="true">★</span> 4,53 (38)
+    </a>
+   </div>
+   <div class="price">90,00 € <small>sis. alv</small></div>
+  </div>
+  <p class="product-description">Tilava poimuri runsaaseen marjapaikkaan.</p>
+<dl class="card-specs"><div><dt>Tilavuus</dt><dd>4,5 l</dd></div><div><dt>Paino</dt><dd>775 g</dd></div><div><dt>Kopan leveys</dt><dd>19 cm</dd></div></dl>
+  <a class="btn product-button" href="iso.html">Tutustu tuotteeseen<span class="sr"> Iso Poimu</span></a>
+ </article><article class="product" data-group="harava">
+  <a class="productphoto" href="harava.html" aria-label="Tutustu tuotteeseen Haravapoimuri"><img src="assets/harava.webp" alt="Haravapoimuri" class="" loading="lazy"><span class="spec">Erillinen astia</span></a>
+  <div class="producttitle">
+   <div class="product-name">
+    <h3><a href="harava.html">Haravapoimuri</a></h3>
+    <a class="product-rating" href="https://poimu.eu/haravapoimuri-poimu/#reviews" aria-label="Haravapoimuri: 4,77 / 5, 119 arvostelua">
+     <span aria-hidden="true">★</span> 4,77 (119)
+    </a>
+   </div>
+   <div class="price">69,00 € <small>sis. alv</small></div>
+  </div>
+  <p class="product-description">Vedä marjat varvustosta suoraan keruuastiaan.</p>
+<dl class="card-specs"><div><dt>Keruu</dt><dd>Erillinen astia</dd></div><div><dt>Paino</dt><dd>1 kg</dd></div><div><dt>Leveys</dt><dd>21 cm</dd></div></dl>
+  <a class="btn product-button" href="harava.html">Tutustu tuotteeseen<span class="sr"> Haravapoimuri</span></a>
+ </article></div></section></main><footer><div class="shell foot">
+  <div class="foot-brand">
+   <a href="index.html" class="logo" aria-label="Poimu – etusivu"><img src="assets/logo.webp" alt="Poimu" width="120" height="42" loading="lazy"></a>
+   <h3 class="foot-company">Poimu Oy · Kuhmo</h3>
+   <p>Poimu on markkinoiden ainoa alumiinirunkoinen ja puukahvallinen marjanpoimuri. Se on marjanpoimijoiden suunnittelema, ergonominen ja kestävä kaveri marjametsään. Poimu on 100% suomalainen tuote.</p>
+   <div class="social-links"><a href="https://www.facebook.com/people/Poimu-Marjapoimuri/" aria-label="Poimu – Facebook"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3H13a4 4 0 0 0-4 4v4H6v4h3v6h4v-6h3l1-4h-4V8a1 1 0 0 1 1-1h2z"/></svg></a><a href="https://www.instagram.com/poimu_marjapoimuri/" aria-label="Poimu – Instagram"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r=".8" fill="currentColor" stroke="none"/></svg></a><a href="https://www.tiktok.com/@poimu_marjanpoimuri/" aria-label="Poimu – TikTok"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v13a4 4 0 1 1-4-4m4-9c0 3 2 5 5 5m0 0v3c-2 0-3.5-.5-5-1.5"/></svg></a><a href="https://www.youtube.com/@Poimu-marjanpoimuri" aria-label="Poimu – YouTube"><svg class="icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3z" fill="currentColor" stroke="none"/></svg></a></div>
+  </div>
+  <div><h3>Poimu</h3><a href="index.html#mallisto">Marjanpoimurit</a><a href="tarina.html">Poimun tarina</a><a href="opas.html">Marjastajan opas</a><a href="https://poimu.eu/blogi/">Blogi</a></div>
+  <div><h3>Asiakaspalvelu</h3><a href="https://poimu.eu/usein-kysytyt-kysymykset/">Usein kysytyt kysymykset</a><a href="https://poimu.eu/tilaus-ja-toimitusehdot/">Tilaus- ja toimitusehdot</a><a href="https://poimu.eu/rekisteri-ja-tietosuojaseloste/">Tietosuoja</a></div>
+  <div id="yhteystiedot"><h3>Kuhmon myymälä</h3><p>Puusepänkatu 2<br>88900 Kuhmo</p><a href="tel:+358413260123">041 326 0123</a></div>
+ </div>
+ <div class="footer-bottom">
+  <div class="shell footer-bottom-inner">
+   <nav class="footer-legal" aria-label="Yrityksen tiedot ja ehdot">
+    <a href="https://poimu.eu/tilaus-ja-toimitusehdot/">Toimitusehdot</a>
+    <a href="#yhteystiedot">Yhteystiedot</a>
+    <a href="https://poimu.eu/rekisteri-ja-tietosuojaseloste/">Tietosuojaseloste</a>
+    <a href="https://poimu.eu/usein-kysytyt-kysymykset/">Usein kysytyt kysymykset</a>
+   </nav>
+   <ul class="payment-icons" aria-label="Maksutavat"><li class="payment-icon payment-icon-visma"><span class="payment-mark" role="img" aria-label="Visma Pay" style="--mark-width:32.000px;--mark-height:11.520px;--sheet-width:338.176px;--sheet-height:16.640px;--mark-x:-3.840px;--mark-y:-2.560px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Nordea" style="--mark-width:32.000px;--mark-height:8.270px;--sheet-width:474.966px;--sheet-height:23.371px;--mark-x:-66.517px;--mark-y:-3.236px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="OmaSp" style="--mark-width:32.000px;--mark-height:12.108px;--sheet-width:571.243px;--sheet-height:28.108px;--mark-x:-80.865px;--mark-y:-14.270px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="OP" style="--mark-width:18.000px;--mark-height:18.000px;--sheet-width:540.409px;--sheet-height:26.591px;--mark-x:-117.000px;--mark-y:-4.909px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="POP Pankki" style="--mark-width:32.000px;--mark-height:8.157px;--sheet-width:414.431px;--sheet-height:20.392px;--mark-x:-108.235px;--mark-y:-1.882px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Danske Bank" style="--mark-width:32.000px;--mark-height:5.647px;--sheet-width:414.431px;--sheet-height:20.392px;--mark-x:-107.922px;--mark-y:-11.922px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Säästöpankki" style="--mark-width:32.000px;--mark-height:5.774px;--sheet-width:317.835px;--sheet-height:15.639px;--mark-x:-111.398px;--mark-y:-2.165px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Ålandsbanken" style="--mark-width:32.000px;--mark-height:3.278px;--sheet-width:206.205px;--sheet-height:10.146px;--mark-x:-72.585px;--mark-y:-5.932px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Aktia" style="--mark-width:32.000px;--mark-height:13.143px;--sheet-width:754.857px;--sheet-height:37.143px;--mark-x:-351.429px;--mark-y:-5.714px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="S-Pankki" style="--mark-width:32.000px;--mark-height:12.337px;--sheet-width:509.301px;--sheet-height:25.060px;--mark-x:-263.711px;--mark-y:-6.554px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Visa" style="--mark-width:32.000px;--mark-height:13.639px;--sheet-width:692.984px;--sheet-height:34.098px;--mark-x:-408.131px;--mark-y:-9.967px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Mastercard" style="--mark-width:22.263px;--mark-height:18.000px;--sheet-width:625.737px;--sheet-height:30.789px;--mark-x:-403.105px;--mark-y:-6.632px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="MobilePay" style="--mark-width:22.909px;--mark-height:18.000px;--sheet-width:540.409px;--sheet-height:26.591px;--mark-x:-371.864px;--mark-y:-4.091px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Klarna" style="--mark-width:32.000px;--mark-height:14.027px;--sheet-width:579.068px;--sheet-height:28.493px;--mark-x:-427.397px;--mark-y:-7.452px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Apple Pay" style="--mark-width:32.000px;--mark-height:14.545px;--sheet-width:768.582px;--sheet-height:37.818px;--mark-x:-616.145px;--mark-y:-11.636px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Google Pay" style="--mark-width:32.000px;--mark-height:14.545px;--sheet-width:768.582px;--sheet-height:37.818px;--mark-x:-653.382px;--mark-y:-11.636px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="Siirto" style="--mark-width:32.000px;--mark-height:17.965px;--sheet-width:741.614px;--sheet-height:36.491px;--mark-x:-666.386px;--mark-y:-10.105px"></span></li><li class="payment-icon"><span class="payment-mark" role="img" aria-label="OP Lasku" style="--mark-width:32.000px;--mark-height:17.778px;--sheet-width:670.984px;--sheet-height:33.016px;--mark-x:-635.429px;--mark-y:-9.143px"></span></li></ul>
+  </div>
+ </div>
+ </footer></body></html>
